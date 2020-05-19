@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "explodingblocks",
+  "version": "${version}",
+  "name": "Exploding Blocks",
+  "description": "Gives blocks a random configurable chance of exploding when they are placed by the player.",
+  "authors": [
+    "Maowcraft"
+  ],
+  "license": "MIT",
+  "icon": "assets/explodingblocks/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "maowcraft.explodingblocks.ExplodingBlocks"
+    ],
+    "modmenu": [
+      "maowcraft.explodingblocks.config.ExplodingBlocksModMenuEntry"
+    ]
+  },
+  "mixins": [
+    "explodingblocks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.3+build.196",
+    "fabric": "*",
+    "minecraft": "1.15.2"
+  }
+}

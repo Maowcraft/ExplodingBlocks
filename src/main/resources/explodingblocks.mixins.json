@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "maowcraft.explodingblocks.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "BlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

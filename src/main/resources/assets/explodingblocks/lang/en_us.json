@@ -1,0 +1,13 @@
+{
+  "text.autoconfig.explodingblocks.option.chance": "Explosion chance",
+  "text.autoconfig.explodingblocks.option.createFire": "Create fire on explosion",
+  "text.autoconfig.explodingblocks.option.outputChance": "Output chance to log",
+  "text.autoconfig.explodingblocks.option.explosionPower": "Explosion power",
+
+  "text.autoconfig.explodingblocks.option.chance.@Tooltip": "Explosion is a 1 in [this variable] chance, 100% is 1 in 1, etc.",
+  "text.autoconfig.explodingblocks.option.createFire.@Tooltip": "Should the explosion spread out fire when it occurs?",
+  "text.autoconfig.explodingblocks.option.outputChance.@Tooltip": "Output the chance variable to log for debugging",
+  "text.autoconfig.explodingblocks.option.explosionPower.@Tooltip": "How powerful is this explosion? Float value.",
+
+  "text.autoconfig.explodingblocks.title": "Exploding Blocks Config"
+}
